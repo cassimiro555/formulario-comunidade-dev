@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formulário de Cadastro</title>
+</head>
+
+<body>
+    <h1>
+Junte-se à nossa comunidade dev!
+    </h1>
+
+    <form action="conclusaocadastro.html" method="post">
+        <fieldset>
+            <legend><strong>Faça seu cadastro.</strong></legend>
+
+            <p></p><label for="inome"><strong>Nome:</strong></label>
+            <input type="text" name="nome" id="inome" placeholder="Qual seu nome completo?" required><br>
+            
+            <p></p><label for="iemail"><strong>E-mail:</strong></label>
+            <input type="email" name="email" id="iemail" placeholder="Exemplo@gmail.completo?"required><br>
+
+            <p></p><label for="isenha"><strong>Senha:</strong></label>
+            <input type="password" namw="senha" id="isenha" placeholder="Crie uma senha" required><br>
+
+            <p></p><label for="idata"><strong>Data de nascimento:</strong></label>
+            <input type="date" name="data" id="idata" required><br>
+
+            <p></p><label for="ilinguagem"><strong>Qual linguagem de programação voçê sabe ou está aprendendo?</strong></label><br>
+            <input type="checkbox" name="linguagens" id="ilinguagem">HTML, CSS e JavaScript<br>
+             <input type="checkbox" name="linguagens" id="ilinguagem">Java<br>
+              <input type="checkbox" name="linguagens" id="ilinguagem">C++<br>
+               <input type="checkbox" name="linguagens" id="ilinguagem">C#<br>
+                <input type="checkbox" name="linguagens" id="ilinguagem">Phython<br>
+                 <input type="checkbox" name="linguagens" id="ilinguagem">Ruby<br>
+                  <input type="checkbox" name="linguagens" id="ilinguagem">TypeScript<br>
+                   <input type="checkbox" name="linguagens" id="ilinguagem">PHP<br>
+                    <input type="checkbox" name="linguagens" id="ilinguagem">C<br>
+                     <input type="checkbox" name="linguagens" id="ilinguagem">SQL<br>
+                      <input type="checkbox" name="linguagens" id="ilinguagem">Rust<br>
+                       <input type="checkbox" name="linguagens" id="ilinguagem">Kotlin<br>
+                        <input type="checkbox" name="linguagens" id="ilinguagem">Swift<br>
+
+
+              <p></p><label for="ilinguagem"><strong>Qual linguagem de programação voçê deseja aprender?</strong></label><br>
+            <input type="checkbox" name="linguagens" id="ilinguagem">HTML, CSS e JavaScript<br>
+             <input type="checkbox" name="linguagens" id="ilinguagem">Java<br>
+              <input type="checkbox" name="linguagens" id="ilinguagem">C++<br>
+               <input type="checkbox" name="linguagens" id="ilinguagem">C#<br>
+                <input type="checkbox" name="linguagens" id="ilinguagem">Phython<br>
+                 <input type="checkbox" name="linguagens" id="ilinguagem">Ruby<br>
+                  <input type="checkbox" name="linguagens" id="ilinguagem">TypeScript<br>
+                   <input type="checkbox" name="linguagens" id="ilinguagem">PHP<br>
+                    <input type="checkbox" name="linguagens" id="ilinguagem">C<br>
+                     <input type="checkbox" name="linguagens" id="ilinguagem">SQL<br>
+                      <input type="checkbox" name="linguagens" id="ilinguagem">Rust<br>
+                       <input type="checkbox" name="linguagens" id="ilinguagem">Kotlin<br>
+                        <input type="checkbox" name="linguagens" id="ilinguagem">Swift<br>            
+
+        
+
+
+
+            <p></p><label for="experiencia"><strong>Qual seu nível de experiência?</strong></label><br>
+            <input type="radio" name="experiencia"  id="experiencia">Nenhum, estou começando<br>
+               <input type="radio" name="experiencia"  id="experiencia">Júnior<br>
+                  <input type="radio" name="experiencia"  id="experiencia">Pleno<br>
+                     <input type="radio" name="experiencia"  id="experiencia">Sênior<br>
+
+
+
+            <p></p><label for="icomentario"><strong>Caso tenha alguma experiência, nos diga qual ou quais. Caso não tenha, apenas deixe em branco.</strong></label><br>
+            <textarea id="icomentario"></textarea>
+
+        </fieldset>
+
+        <input type="submit" value="Enviar">
+    </form>
+</body>
+</html>
